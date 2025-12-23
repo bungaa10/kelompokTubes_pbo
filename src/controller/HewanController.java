@@ -1,12 +1,12 @@
 package controller;
 
-import dao.HewanDao;
+import api.HewanApi;
 import model.Hewan;
 
 public class HewanController {
 
     public static void tambah(Hewan h) {
-        HewanDao dao = new HewanDao();
+        HewanApi dao = new HewanApi();
         dao.insert(h);
     }
 }

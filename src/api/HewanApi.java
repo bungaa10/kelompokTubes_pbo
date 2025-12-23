@@ -1,4 +1,4 @@
-package dao;
+package api;
 
 import config.Database;
 import model.Hewan;
@@ -6,7 +6,7 @@ import model.Hewan;
 import java.sql.*;
 import java.util.ArrayList;
 
-public class HewanDao {
+public class HewanApi {
 
     public void insert(Hewan h) {
         try {

@@ -7,3 +7,9 @@ CREATE TABLE hewan (
     jenis VARCHAR(100),
     umur INT
 );
+CREATE TABLE layanan (
+    id_layanan INT AUTO_INCREMENT PRIMARY KEY,
+    nama_layanan VARCHAR(100),
+    harga INT
+);
+
